@@ -1,11 +1,18 @@
 const PageItemCart = ({ items }) => {
+
+	const getImagePathAndFileName = (pathAndFileName) => {
+		return pathAndFileName.substring(1);
+	}
 	return (
-		<div className="pageItemCart">
+		<div className="page pageItemCart">
 			<fieldset>
 				<legend>Store</legend>
 				{items.map((item, i) => {
 					return (
-						<div key={i} className="item">{item.name}</div>
+						<div key={i} className="item">
+							<img src={getImagePathAndFileName(item.image_small)} alt="" />
+							<div>{item.name}</div>
+						</div>
 					)
 				})}
 			</fieldset>

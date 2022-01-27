@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react';
+import { createContext, useState, useEffect } from 'react';
 
 const AppContext = createContext();
 
@@ -8,6 +8,12 @@ const _cart = {
 
 export const AppProvider = ({ children }) => {
 	const [cart, setCart] = useState(_cart);
+	const [groupedItems, setGroupedItems] = useState([]);
+
+	useEffect(() => {
+		setGroupedItems([...cart.items]);
+		console.log('updated grouped items');
+	}, [cart]);
 
 	const addToCart = (item) => {
 		cart.items.push(item);
@@ -17,8 +23,8 @@ export const AppProvider = ({ children }) => {
 	return (
 		<AppContext.Provider value={{
 			cart,
-			setCart,
-			addToCart
+			addToCart,
+			groupedItems
 		}} >
 			{children}
 		</AppContext.Provider>

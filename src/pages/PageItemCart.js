@@ -9,7 +9,7 @@ const PageItemCart = ({ items }) => {
 	}
 	return (
 		<div className="page pageItemCart">
-			<fieldset class="store">
+			<fieldset className="store">
 				<legend>Store</legend>
 				{items.map((item, i) => {
 					return (

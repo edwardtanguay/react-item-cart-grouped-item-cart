@@ -1,3 +1,5 @@
 - x clean current files out from base code and make new components
 - x display all items as icons
-- .. create cart in AppContext
+- x create cart in AppContext
+- .. create grouped-item-cart
+	- create function: getGroupedItems

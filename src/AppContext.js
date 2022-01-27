@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
+import items from './data/items.json'; 
 
 const AppContext = createContext();
 
@@ -12,6 +13,7 @@ export const AppProvider = ({ children }) => {
 
 	useEffect(() => {
 		const obj = {};
+		const _groupedItems = [];
 		cart.items.forEach(item => {
 			if (!obj[item.id]) {
 				obj[item.id] = 1;
@@ -19,8 +21,16 @@ export const AppProvider = ({ children }) => {
 				obj[item.id]++;
 			}
 		});
-		console.log(obj);
-		setGroupedItems([...cart.items]);
+		const ids = Object.keys(obj);
+		ids.forEach(id => {
+			const groupedItem = {};
+			groupedItem.id = id;
+			groupedItem.name = items.find(item => item.id === Number(id));
+			groupedItem.total = obj[id];
+			_groupedItems.push(groupedItem);
+		});
+		console.log(_groupedItems);
+		setGroupedItems([..._groupedItems]);
 	}, [cart]);
 
 	const addToCart = (item) => {

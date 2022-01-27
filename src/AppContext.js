@@ -11,8 +11,16 @@ export const AppProvider = ({ children }) => {
 	const [groupedItems, setGroupedItems] = useState([]);
 
 	useEffect(() => {
+		const obj = {};
+		cart.items.forEach(item => {
+			if (!obj[item.id]) {
+				obj[item.id] = 1;
+			} else {
+				obj[item.id]++;
+			}
+		});
+		console.log(obj);
 		setGroupedItems([...cart.items]);
-		console.log('updated grouped items');
 	}, [cart]);
 
 	const addToCart = (item) => {

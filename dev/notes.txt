@@ -1,2 +1,3 @@
 - x clean current files out from base code and make new components
-- .. display all items as icons
+- x display all items as icons
+- .. create cart in AppContext

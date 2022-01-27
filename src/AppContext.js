@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from 'react';
-import items from './data/items.json'; 
+import items from './data/items.json';
 
 const AppContext = createContext();
 
@@ -25,8 +25,10 @@ export const AppProvider = ({ children }) => {
 		ids.forEach(id => {
 			const groupedItem = {};
 			groupedItem.id = id;
-			groupedItem.name = items.find(item => item.id === Number(id));
-			groupedItem.total = obj[id];
+			groupedItem.name = items.find(item => item.id === Number(id)).name;
+			groupedItem.image_small =
+				groupedItem.total = obj[id];
+			groupedItem.image_small = items.find(item => item.id === Number(id)).image_small;
 			_groupedItems.push(groupedItem);
 		});
 		console.log(_groupedItems);

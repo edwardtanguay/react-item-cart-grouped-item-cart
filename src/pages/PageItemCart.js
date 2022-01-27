@@ -1,12 +1,9 @@
 import { useContext } from 'react';
 import AppContext from '../AppContext';
 
-const PageItemCart = ({ items }) => {
+const PageItemCart = ({ items, getImagePathAndFileName }) => {
 	const { addToCart, cart } = useContext(AppContext);
 
-	const getImagePathAndFileName = (pathAndFileName) => {
-		return pathAndFileName.substring(1);
-	}
 	return (
 		<div className="page pageItemCart">
 			<fieldset className="store">

@@ -19,7 +19,7 @@ body {
 			padding: 5px;
 		}
 		a {
-			color: navy; 
+			color: navy;
 		}
 		p {
 			margin: 0 0 10px 0;
@@ -58,6 +58,15 @@ body {
 						color: rgb(255, 255, 161);
 					}
 				}
+			}
+		}
+		fieldset {
+			border: 1px solid green;
+			border-radius: 5px;
+			padding: 20px;
+
+			legend {
+				color: brown;
 			}
 		}
 		.highlight {

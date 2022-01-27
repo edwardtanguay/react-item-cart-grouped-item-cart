@@ -1,0 +1,137 @@
+[
+	{
+		"employeeID" : 2,
+		"lastName" : "Nnnnnnnnnnn",
+		"firstName" : "Andrew",
+		"title" : "Vice President Sales",
+		"titleOfCourtesy" : "Dr.",
+		"birthDate" : "1952-02-19 00:00:00.000",
+		"hireDate" : "1992-08-14 00:00:00.000",
+		"address" : {
+			"street" : "908 W. Capital Way",
+			"city" : "Tacoma",
+			"region" : "WA",
+			"postalCode" : 98401,
+			"country" : "USA",
+			"phone" : "(206) 555-9482"
+		},
+		"notes" : "Andrew received his BTS commercial in 1974 and a Ph.D. in international marketing from the University of Dallas in 1981.  He is fluent in French and Italian and reads German.  He joined the company as a sales representative was promoted to sales manager",
+		"reportsTo" : "NULL",
+		"territoryIDs" : [
+			1730,
+			1833,
+			2116,
+			2139,
+			2184,
+			40222,
+			1581
+		]
+	},
+	{
+		"employeeID" : 1,
+		"lastName" : "Davolio",
+		"firstName" : "Nancy",
+		"title" : "Sales Representative",
+		"titleOfCourtesy" : "Ms.",
+		"birthDate" : "1948-12-08 00:00:00.000",
+		"hireDate" : "1992-05-01 00:00:00.000",
+		"address" : {
+			"street" : "507 20th Ave. E. Apt. 2A",
+			"city" : "Seattle",
+			"region" : "WA",
+			"postalCode" : 98122,
+			"country" : "USA",
+			"phone" : "(206) 555-9857"
+		},
+		"notes" : "Education includes a BA in psychology from Colorado State University in 1970.  She also completed The Art of the Cold Call.  Nancy is a member of Toastmasters International.",
+		"reportsTo" : 2,
+		"territoryIDs" : [
+			6897,
+			19713
+		]
+	},
+	{
+		"employeeID" : 7,
+		"lastName" : "King",
+		"firstName" : "Robert",
+		"title" : "Sales Representative",
+		"titleOfCourtesy" : "Mr.",
+		"birthDate" : "1960-05-29 00:00:00.000",
+		"hireDate" : "1994-01-02 00:00:00.000",
+		"address" : {
+			"street" : "Edgeham Hollow Winchester Way",
+			"city" : "London",
+			"region" : "NULL",
+			"postalCode" : "RG1 9SP",
+			"country" : "UK",
+			"phone" : "(71) 555-5598"
+		},
+		"notes" : "Robert King served in the Peace Corps and traveled extensively before completing his degree in English at the University of Michigan in 1992 the year he joined the company.",
+		"reportsTo" : 5,
+		"territoryIDs" : [
+			60601,
+			80202,
+			80909,
+			90405,
+			94025,
+			94105,
+			95008,
+			95054,
+			95060,
+			60179
+		]
+	},
+	{
+		"employeeID" : 8,
+		"lastName" : "Callahan",
+		"firstName" : "Laura",
+		"title" : "Inside Sales Coordinator",
+		"titleOfCourtesy" : "Ms.",
+		"birthDate" : "1958-01-09 00:00:00.000",
+		"hireDate" : "1994-03-05 00:00:00.000",
+		"address" : {
+			"street" : "4726 11th Ave. N.E.",
+			"city" : "Seattle",
+			"region" : "WA",
+			"postalCode" : 98105,
+			"country" : "USA",
+			"phone" : "(206) 555-1189"
+		},
+		"notes" : "Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French.",
+		"reportsTo" : 2,
+		"territoryIDs" : [
+			19428,
+			44122,
+			45839,
+			53404
+		]
+	},
+	{
+		"employeeID" : 9,
+		"lastName" : "Dodsworth",
+		"firstName" : "Anne",
+		"title" : "Sales Representative",
+		"titleOfCourtesy" : "Ms.",
+		"birthDate" : "1966-01-27 00:00:00.000",
+		"hireDate" : "1994-11-15 00:00:00.000",
+		"address" : {
+			"street" : "7 Houndstooth Rd.",
+			"city" : "London",
+			"region" : "NULL",
+			"postalCode" : "WG2 7LT",
+			"country" : "UK",
+			"phone" : "(71) 555-4444"
+		},
+		"notes" : "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.",
+		"reportsTo" : 5,
+		"territoryIDs" : [
+			3049,
+			3801,
+			48075,
+			48084,
+			48304,
+			55113,
+			55439
+		]
+	}
+]

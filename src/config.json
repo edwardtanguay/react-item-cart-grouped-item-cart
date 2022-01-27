@@ -1,0 +1,22 @@
+{
+	"environment": {
+		"development": {
+			"data": {
+				"employees": "dev_employees.json",
+				"customers": "dev_customers.json"
+			}
+		},
+		"testing": {
+			"data": {
+				"employees": "test_employees.json",
+				"customers": "test_customers.json"
+			}
+		},
+		"production": {
+			"data": {
+				"employees": "https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/employees.json",
+				"customers": "https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/customers.json"
+			}
+		}
+	}
+}

@@ -1,0 +1,202 @@
+[
+	{
+		"id": 1,
+		"name": "Monstera deliciosa",
+		"image": "/images/plants/istockphoto-1278906674-170667a.png",
+		"image_small": "/images/plants/istockphoto-1278906674-170667a_small.png",
+		"price": 45,
+		"light": "scattered light to semi-shade",
+		"winterHardness": "frost sensitive",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 50 cm to 300 cm",
+		"soilMoisture": "fresh to humid",
+		"description": "Monstera deliciosa, the Swiss cheese plant,is a species of flowering plant native to tropical forests of southern Mexico, south to Panama.It has been introduced to many tropical areas, and has become a mildly invasive species in Hawaii, Seychelles, Ascension Island and the Society Islands. It is very widely grown in temperate zones as a houseplant.",
+		"abstract": "Monstera deliciosa, the Swiss cheese plant,is a species of flowering plant native to tropical forests of southern Mexico, south to Panama",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 2,
+		"name": "Aspidistra elatior",
+		"image": "/images/plants/aspidistra-elatior-potted-plant-cast-iron-plant__0997098_pe822599_s5.png",
+		"image_small": "/images/plants/aspidistra-elatior-potted-plant-cast-iron-plant__0997098_pe822599_s5_small.png",
+		"price": 9,
+		"light": "scattered light to semi-shade",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 60 cm to 80 cm",
+		"soilMoisture": "fresh to humid",
+		"description": "The houseplant known as the Cast iron or bar room plant is the species Aspidistra elatior from the Aspidistra genus. This plant genus has over 90 species and belong to the Asparagaceae family. It originates from the forests of China and Japan. The Cast iron plant quickly established itself across all of Europe as a ‘ubiquitous’ houseplant thanks to its robustness and uncomplicated care requirements, and enjoys a reputation as an indestructible houseplant. The leafy plant is often used as decoration in offices, restaurants and stores in particular (which is why it is often sometimes known as the bar room plant). Its long leaves are also used by florists as foliage ornamentation.",
+		"abstract": "The houseplant known as the Cast iron or bar room plant is the species Aspidistra elatior from the Aspidistra genus.",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Dracaena marginata ",
+		"image": "/images/plants/dracaena-marginata-potted-plant-dragon-tree-4-stem__1109989_pe870323_s5.png",
+		"image_small": "/images/plants/dracaena-marginata-potted-plant-dragon-tree-4-stem__1109989_pe870323_s5_small.png",
+		"price": 59,
+		"light": "scattered light",
+		"winter Hardness": "conditionally hardy",
+		"nutrient requirements": "low in nutrients",
+		"Growth height": "from 150 cm to 250 cm",
+		"Soil Moisture": "fresh to humid",
+		"description": "Dragon trees (Dracaena) are attractive green plants, which botanically belong to the agave family (Agavoideae) within the asparagus family (Asparagaceae). Most species of the genus are native to the tropics and subtropics —from the Canary Islands across Africa and Asia to Australia. The botanical name is derived from the Greek word drakaina, which means something resembling a female dragon or snake. More than 100 years ago, a garden magazine pointed out the beauty and robustness of dragon trees. In our latitudes, a few species are well-known as houseplants and office plants with air purifying characteristics. The best-known representative of the genus is probably the Canarian dragon tree (Dracaena draco). One plant that is quite similar in its growth form is the cabbage palm (Cordyline australis). Botanically too, they are quite closely related.",
+		"abstract": "Dragon trees (Dracaena) are attractive green plants, which botanically belong to the agave family (Agavoideae) within the asparagus family (Asparagaceae).",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Hydrangea",
+		"image": "/images/plants/fejka-artificial-potted-plant-in-outdoor-hydrangea-blue__1034056_pe840167_s5.png",
+		"image_small": "/images/plants/fejka-artificial-potted-plant-in-outdoor-hydrangea-blue__1034056_pe840167_s5_small.png",
+		"price": 25,
+		"light": "scattered light to semi-shade",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "rich in nutrients",
+		"growthHeight": "from 150 cm to 250 cm",
+		"soilMoisture": "humid",
+		"description": "Hydrangea common names hydrangea or hortensia, is a genus of over 75 species of flowering plants native to Asia and the Americas. By far the greatest species diversity is in eastern Asia, notably China, Korea, and Japan. Most are shrubs 1 to 3 m tall, but some are small trees, and others lianas reaching up to 30 m (100 ft) by climbing up trees. They can be either deciduous or evergreen, though the widely cultivated temperate species are all deciduous.",
+		"abstract": "Hydrangea common names hydrangea or hortensia, is a genus of over 75 species of flowering plants native to Asia and the Americas.",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Ficus lyrata ",
+		"image": "/images/plants/ficus-lyrata-bambino-potted-plant-fiddle-leaf-fig__0574170_pe668128_s5.png",
+		"image_small": "/images/plants/ficus-lyrata-bambino-potted-plant-fiddle-leaf-fig__0574170_pe668128_s5_small.png",
+		"price": 20,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 200 cm to 400 cm",
+		"soilMoisture": "fresh to humid",
+		"description": "Ficus lyrata, commonly known as the fiddle-leaf fig, is a species of flowering plant in the mulberry and fig family Moraceae. It is native to western Africa, from Cameroon west to Sierra Leone, where it grows in lowland tropical rainforest.The leaves are variable in shape, but often with a broad apex and narrow middle, resembling a lyre or fiddle; they are up to 45 cm (18 in) long and 30 cm (12 in) broad (though usually smaller) with a leathery texture, prominent veins and a wavy margin.",
+		"abstract": "icus lyrata, commonly known as the fiddle-leaf fig, is a species of flowering plant in the mulberry and fig family Moraceae.",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 6,
+		"name": "Fatsia japonica",
+		"image": "/images/plants/fatsia-japonica-istockphoto-1276706674-170667a.png",
+		"image_small": "/images/plants/fatsia-japonica-istockphoto-1276706674-170667_small.png",
+		"price": 38,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 20 cm to 40 cm",
+		"soilMoisture": "fresh to humid",
+		"description": "Ficus lyrata, commonly known as the fiddle-leaf fig, is a species of flowering plant in the mulberry and fig family Moraceae. It is native to western Africa, from Cameroon west to Sierra Leone, where it grows in lowland tropical rainforest.The leaves are variable in shape, but often with a broad apex and narrow middle, resembling a lyre or fiddle; they are up to 45 cm (18 in) long and 30 cm (12 in) broad (though usually smaller) with a leathery texture, prominent veins and a wavy margin.",
+		"abstract": "icus lyrata, commonly known as the fiddle-leaf fig, is a species of flowering plant in the mulberry and fig family Moraceae.",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 7,
+		"name": "Ficus Benjamina",
+		"image": "/images/plants/ficus-benjamina-istockphoto-1278906674-170667a.png",
+		"image_small": "/images/plants/ficus-benjamina-istockphoto-1278906674-170667a_small.png",
+		"price": 70,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 100 cm to 250 cm",
+		"soilMoisture": "fresh to humid",
+		"description": " The birch fig ( Ficus benjamina ), is a plant species from the mulberry family (Moraceae). This species is native to Nepal , northern India , Bangladesh , Burma , southern China , from Malaysia to the Solomon Islands , and northern tropical Australia.",
+		"abstract": "The birch fig ( Ficus benjamina ), is a plant species from the mulberry family (Moraceae).",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Roseaceae",
+		"image": "/images/plants/roseaceae-istockphoto-1275406674-170667a.pngistockphoto-1275406674-170667a.png",
+		"image_small": "/images/plants/roseaceae-istockphoto-1275406674-170667a.pngistockphoto-1275406674-170667a_small.png",
+		"price": 34,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 100 cm to 250 cm",
+		"soilMoisture": "fresh to humid",
+		"description": "The roses ( Rosa ) are the eponymous genus of plants of the rose family (Rosaceae). The genus includes 100 to 250 species, depending on the author's opinion. These form a very well defined genus due to their typical characteristics of spines , rose hips and imparipinnate leaves. They are shrubs with mostly showy, fivefold flowers . Most species are only distributed in the Holarctic . The science of roses is called Rhodology.",
+		"abstract": "The roses ( Rosa ) are the eponymous genus of plants of the rose family (Rosaceae).",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Polypodiopsida",
+		"image": "/images/plants/polypodiopsida-istockphoto-1232906674-170667a.png",
+		"image_small": "/images/plants/polypodiopsida-istockphoto-1232906674-170667a_small.png",
+		"price": 24,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 20 cm to 40 cm",
+		"soilMoisture": "fresh to humid",
+		"description": " A fern (Polypodiopsida or Polypodiophyta, is a member of a group of vascular plants (plants with xylem and phloem) that reproduce via spores and have neither seeds nor flowers. They differ from mosses and other bryophytes by being vascular, i.e., having specialized tissues that conduct water and nutrients and in having life cycles in which the branched sporophyte is the dominant phase.",
+		"abstract": "A fern (Polypodiopsida or Polypodiophyta, is a member of a group of vascular plants.",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	},
+	{
+		"id": 8,
+		"name": "Fiddle Fig",
+		"image": "/images/plants/fiddle-fig-istockphoto-1267906674-170667a.png",
+		"image_small": "/images/plants/fiddle-fig-istockphoto-1267906674-170667a_small.png",
+		"price": 79,
+		"light": "scattered light",
+		"winterHardness": "conditionally hardy",
+		"nutrientRequirements": "low in nutrients",
+		"growthHeight": "from 30 cm to 180 cm",
+		"soilMoisture": "fresh to humid",
+		"description": " The violin fig ( Ficus lyrata ) is a plant species from the genus of figs ( Ficus ) within the mulberry family (Moraceae). The popular houseplant owes its name to the wavy, large leaves, which are reminiscent of the shape of a violin.",
+		"abstract": "The violin fig ( Ficus lyrata ) is a plant species from the genus of figs ( Ficus ) within the mulberry family (Moraceae). ",
+		"imageGallery": [
+			"monstera-pflanze-fensterblatt__0653991_pe708220_s5.avif",
+			"monstera-pflanze-fensterblatt__0902617_pe729746_s5.avif",
+			"monstera-pflanze-fensterblatt__0902106_pe640705_s5.avif",
+			"monstera-pflanze-fensterblatt__0768637_pe754515_s5.webp"
+		]
+	}
+]

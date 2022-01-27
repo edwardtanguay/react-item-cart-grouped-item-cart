@@ -3,8 +3,7 @@ import { useState, useEffect } from 'react';
 import { PageLoader } from '../components/PageLoader';
 import { config } from '../config';
 
-let _employees = config.dataSources.employees.startsWith('http') ? [] : require(`../data/${config.dataSources.employees}`);
-let _customers = config.dataSources.customers.startsWith('http') ? [] : require(`../data/${config.dataSources.customers}`);
+let _items = config.dataSources.items.startsWith('http') ? [] : require(`../data/${config.dataSources.items}`);
 
 const fetchData = async (url) => {
 	const response = await fetch(url);
@@ -13,42 +12,22 @@ const fetchData = async (url) => {
 
 export const dataManager = Component => (props) => {
 	const [dataLoaded, setDataLoaded] = useState(false);
-	const [employees, setEmployees] = useState([]);
-	const [customers, setCustomers] = useState([]);
+	const [items, setItems] = useState([]);
 
-	const getUkEmployees = () => {
-		return employees.filter(emp => emp.address.country === 'UK');
+	const prepareItems = (_items) => {
+		_items.map(m => m.fullName = `${m.firstName} ${m.lastName}`);
+		setItems([..._items]);
 	}
 
-	const getUsaEmployees = () => {
-		return employees.filter(emp => emp.address.country === 'USA');
-	}
-
-	const getUkCustomers = () => {
-		return customers.filter(emp => emp.address.country === 'UK');
-	}
-
-	const prepareEmployees = (_employees) => {
-		_employees.map(m => m.fullName = `${m.firstName} ${m.lastName}`);
-		setEmployees([..._employees]);
-	}
-
-	const prepareCustomers = (_customers) => {
-		setCustomers([..._customers]);
-	}
 	useEffect(() => {
 		setTimeout(async () => {
-			if (config.dataSources.employees.startsWith('http')) {
-				_employees = await fetchData(config.dataSources.employees);
+			if (config.dataSources.items.startsWith('http')) {
+				_items = await fetchData(config.dataSources.items);
 			}
-			if (config.dataSources.customers.startsWith('http')) {
-				_customers = await fetchData(config.dataSources.customers);
-			}
-			prepareEmployees(_employees);
-			prepareCustomers(_customers);
+			prepareItems(_items);
 			setDataLoaded(true);
 		}, config.mockPageWaitTime * 1000);
 	}, []);
 
-	return !dataLoaded ? <PageLoader /> : <Component {...props} ukEmployees={getUkEmployees()} usaEmployees={getUsaEmployees()} employees={employees} customers={customers} ukCustomers={getUkCustomers()} />
+	return !dataLoaded ? <PageLoader /> : <Component {...props} items={items} />
 }

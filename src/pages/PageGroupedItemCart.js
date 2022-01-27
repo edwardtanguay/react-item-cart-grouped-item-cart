@@ -7,12 +7,12 @@ const PageGroupedItemCart = ({ getImagePathAndFileName }) => {
 	return (
 		<>
 			<fieldset className="cart">
-				<legend>Item Cart</legend>
+				<legend>Grouped Item Cart</legend>
 				{groupedItems.map((item, i) => {
 					return (
 						<div className="itemCartItem" key={i}>
 							<img src={getImagePathAndFileName(item.image_small)} alt="" />
-							<div>{item.name} ({item.total})</div>
+							<div>{item.name} ({item.total}x)</div>
 						</div>)
 				})}
 			</fieldset>

@@ -22,7 +22,7 @@ const PageItemCart = ({ items, getImagePathAndFileName }) => {
 					return (
 						<div className="itemCartItem" key={i}>
 							<img onClick={() => addToCart(item)} src={getImagePathAndFileName(item.image_small)} alt="" />
-							<div>{item.name} ({item.id})</div>
+							<div>{item.name}</div>
 						</div>)
 				})}
 			</fieldset>

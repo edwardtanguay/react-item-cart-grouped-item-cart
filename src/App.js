@@ -19,8 +19,8 @@ function App() {
 			<div className="content">
 				<Routes>
 					<Route path="/" element={<PageHome />} />
-					<Route path="employees" element={<PageItemCart />} />
-					<Route path="customers" element={<PageGroupedItemCart />} />
+					<Route path="itemcart" element={<PageItemCart />} />
+					<Route path="groupeditemcart" element={<PageGroupedItemCart />} />
 				</Routes>
 			</div>
 		</div>

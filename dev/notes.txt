@@ -1,2 +1,2 @@
-- .. clean current files out from base code and make new components
-- make items array with all products
+- x clean current files out from base code and make new components
+- .. display all items as icons

@@ -7,6 +7,7 @@ class Config {
 		this.mockPageWaitTime = 0;
 		this.dataSources = this.config.environment[this.getCurrentEnvironmentIdCode()].data;
 		this.environment = this.getCurrentEnvironmentIdCode();
+		this.showEnvironmentStatusBar = this.config.showEnvironmentStatusBar;
 	}
 
 	getCurrentEnvironmentIdCode() {

@@ -2,15 +2,15 @@ import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 import _Nav from './components/Nav';
 import _PageHome from './pages/PageHome';
-import _PageEmployees from './pages/PageEmployees';
-import _PageCustomers from './pages/PageCustomers';
+import _PageItemCart from './pages/PageItemCart';
+import _PageGroupedItemCart from './pages/PageGroupedItemCart';
 import { dataManager } from './managers/dataManager';
 import { siteManager } from './managers/siteManager';
 
 const Nav = siteManager(_Nav);
 const PageHome = siteManager(dataManager(_PageHome));
-const PageEmployees = siteManager(dataManager(_PageEmployees));
-const PageCustomers = siteManager(dataManager(_PageCustomers));
+const PageItemCart = siteManager(dataManager(_PageItemCart));
+const PageGroupedItemCart = siteManager(dataManager(_PageGroupedItemCart));
 
 function App() {
 	return (
@@ -19,8 +19,8 @@ function App() {
 			<div className="content">
 				<Routes>
 					<Route path="/" element={<PageHome />} />
-					<Route path="employees" element={<PageEmployees />} />
-					<Route path="customers" element={<PageCustomers />} />
+					<Route path="employees" element={<PageItemCart />} />
+					<Route path="customers" element={<PageGroupedItemCart />} />
 				</Routes>
 			</div>
 		</div>

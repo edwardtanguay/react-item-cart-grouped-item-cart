@@ -25,7 +25,7 @@ font-variant: small-caps;
 
 	return (
 		<>
-			{config.environment !== 'production' && (
+			{config.showEnvironmentStatusBar && config.environment !== 'production' && (
 				<SiteMessage>{config.environment}</SiteMessage>
 			)}
 			<nav>

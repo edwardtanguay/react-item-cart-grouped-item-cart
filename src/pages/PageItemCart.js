@@ -9,7 +9,7 @@ const PageItemCart = ({ items }) => {
 	}
 	return (
 		<div className="page pageItemCart">
-			<fieldset>
+			<fieldset class="store">
 				<legend>Store</legend>
 				{items.map((item, i) => {
 					return (
@@ -19,12 +19,14 @@ const PageItemCart = ({ items }) => {
 					)
 				})}
 			</fieldset>
-			<fieldset>
+			<fieldset className="cart">
 				<legend>Item Cart</legend>
 				{cart.items.map((item, i) => {
 					return (
-						<div key={i} className="item">{item.name}</div>
-					)
+						<div className="itemCartItem" key={i}>
+							<img onClick={() => addToCart(item)} src={getImagePathAndFileName(item.image_small)} alt="" />
+							<div>{item.name}</div>
+						</div>)
 				})}
 			</fieldset>
 		</div>

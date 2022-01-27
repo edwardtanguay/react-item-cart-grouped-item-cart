@@ -60,12 +60,27 @@ body {
 				}
 			}
 		}
+		fieldset.store {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		fieldset.cart {
+			.itemCartItem {
+				display: flex;
+				font-size: 1.7rem;
+				img {
+					width: 50px;
+					cursor: pointer;
+				}
+				div {
+					margin: 10px 0 0 10px;
+				}
+			}
+		}
 		fieldset {
 			border: 1px solid green;
 			border-radius: 5px;
 			padding: 10px 20px 20px 20px;
-			display: flex;
-			flex-wrap: wrap;
 
 			legend {
 				color: brown;

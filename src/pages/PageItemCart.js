@@ -11,7 +11,6 @@ const PageItemCart = ({ items }) => {
 					return (
 						<div key={i} className="item">
 							<img src={getImagePathAndFileName(item.image_small)} alt="" />
-							<div>{item.name}</div>
 						</div>
 					)
 				})}

@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import AppContext from '../AppContext';
 
 const PageItemCart = ({ items }) => {
-	const { addToCart } = useContext(AppContext);
+	const { addToCart, cart } = useContext(AppContext);
 
 	const getImagePathAndFileName = (pathAndFileName) => {
 		return pathAndFileName.substring(1);
@@ -21,7 +21,7 @@ const PageItemCart = ({ items }) => {
 			</fieldset>
 			<fieldset>
 				<legend>Item Cart</legend>
-				{items.map((item, i) => {
+				{cart.items.map((item, i) => {
 					return (
 						<div key={i} className="item">{item.name}</div>
 					)

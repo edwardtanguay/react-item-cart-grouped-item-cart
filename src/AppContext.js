@@ -10,8 +10,8 @@ export const AppProvider = ({ children }) => {
 	const [cart, setCart] = useState(_cart);
 
 	const addToCart = (item) => {
-		console.log(item);
 		cart.items.push(item);
+		setCart({ ...cart });
 	}
 
 	return (

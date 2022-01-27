@@ -1,4 +1,8 @@
+import { useContext } from 'react';
+import AppContext from '../AppContext';
+
 const PageItemCart = ({ items }) => {
+	const { addToCart } = useContext(AppContext);
 
 	const getImagePathAndFileName = (pathAndFileName) => {
 		return pathAndFileName.substring(1);
@@ -10,7 +14,7 @@ const PageItemCart = ({ items }) => {
 				{items.map((item, i) => {
 					return (
 						<div key={i} className="item">
-							<img src={getImagePathAndFileName(item.image_small)} alt="" />
+							<img onClick={() => addToCart(item)} src={getImagePathAndFileName(item.image_small)} alt="" />
 						</div>
 					)
 				})}
